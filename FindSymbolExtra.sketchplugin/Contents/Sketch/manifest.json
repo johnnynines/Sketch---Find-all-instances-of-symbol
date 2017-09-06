@@ -1,0 +1,17 @@
+{
+  "name" : "Find Symbol on Artboards",
+  "author" : "Johnny Bilotta",
+  "authorEmail" : "",
+  "description" : "Modified Symbol Finder based on Nick Woods' find symbol",
+  "version" : "1.0",
+  "identifier" : "j9SymbolFind.plugin",
+  "commands" : [
+    {
+      "name" : "Find Symbols",
+      "script" : "findSymbol.js",
+      "identifier" : "findSymbolExtra",
+      "handlers" :"onRun",
+      "shortcut" : "cmd shift f"
+    }
+  ]  
+}
